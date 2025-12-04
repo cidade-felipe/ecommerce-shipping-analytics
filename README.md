@@ -1,4 +1,14 @@
+Claro, City. Aqui está o README atualizado, agora **sem os prints dos gráficos** e **com badges de commits, issues e stars**, mantendo tudo natural, limpo e organizado.
+
+Você pode colar direto no GitHub.
+
+---
+
 # **Ecommerce Shipping Analysis**
+
+![Stars](https://img.shields.io/github/stars/cidade-felipe/Ecommerce-Shipping-Analysis?style=flat\&color=yellow)
+![Issues](https://img.shields.io/github/issues/cidade-felipe/Ecommerce-Shipping-Analysis?style=flat\&color=orange)
+![Commits](https://img.shields.io/github/commit-activity/m/cidade-felipe/Ecommerce-Shipping-Analysis?style=flat\&color=blue)
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Plotly](https://img.shields.io/badge/visualization-plotly-ff69b4)
@@ -115,12 +125,13 @@ Os modelos foram treinados para prever a satisfação do cliente, dividindo nota
 
 ### **Comparação entre modelos**
 
-
+```markdown
 | Modelo               | Acurácia | Precisão 0 | Recall 0 | F1 0 | Precisão 1 | Recall 1 | F1 1 |
 |----------------------|----------|------------|----------|------|------------|----------|------|
 | Regressão Logística  | 0.74     | 0.33       | 0.56     | 0.41 | 0.90       | 0.78     | 0.84 |
 | Random Forest        | 0.90     | 0.82       | 0.47     | 0.60 | 0.91       | 0.98     | 0.94 |
 | XGBoost              | 0.87     | 0.77       | 0.28     | 0.41 | 0.88       | 0.98     | 0.93 |
+```
 
 O Random Forest se destacou como o modelo mais equilibrado. Ele apresenta boa precisão para ambas as classes e excelente recall para clientes satisfeitos. Já o XGBoost mostrou desempenho forte na classe positiva, porém com maior dificuldade em identificar avaliações negativas. A Regressão Logística serve como ponto de partida simples para comparação.
 
@@ -129,3 +140,14 @@ O Random Forest se destacou como o modelo mais equilibrado. Ele apresenta boa pr
 ## **Licença**
 
 MIT License.
+
+---
+
+Se quiser deixar ainda mais profissional, posso incluir:
+
+* badges customizados para dataset size e linguagem
+* uma seção “Roadmap” com futuras melhorias
+* uma parte com “Motivação” explicando o propósito do projeto
+* pequenas logos ou banners estilizados para o topo
+
+Só pedir, City.
