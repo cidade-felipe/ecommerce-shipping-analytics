@@ -1,9 +1,5 @@
 # **Ecommerce Shipping Analysis**
 
-![Stars](https://img.shields.io/github/stars/cidade-felipe/Ecommerce-Shipping-Analysis?style=flat\&color=yellow)
-![Issues](https://img.shields.io/github/issues/cidade-felipe/Ecommerce-Shipping-Analysis?style=flat\&color=orange)
-![Commits](https://img.shields.io/github/commit-activity/m/cidade-felipe/Ecommerce-Shipping-Analysis?style=flat\&color=blue)
-
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Plotly](https://img.shields.io/badge/visualization-plotly-ff69b4)
 ![scikit-learn](https://img.shields.io/badge/ML-scikit--learn-yellow)
