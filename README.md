@@ -4,7 +4,10 @@
 ![Plotly](https://img.shields.io/badge/visualization-plotly-ff69b4)
 ![scikit-learn](https://img.shields.io/badge/ML-scikit--learn-yellow)
 ![XGBoost](https://img.shields.io/badge/ML-XGBoost-orange)
+![Logistic Regression](https://img.shields.io/badge/Model-Logistic%20Regression-lightblue)
+![Random Forest](https://img.shields.io/badge/Model-Random%20Forest-green)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 
 Este projeto investiga o comportamento logístico do e-commerce brasileiro por meio de visualizações interativas e modelos de machine learning. A intenção é transformar dados brutos em insights que expliquem padrões de entrega, custos, satisfação e atraso.
 
