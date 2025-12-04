@@ -90,7 +90,7 @@ O arquivo está em:
 data/processed/archive.zip
 ```
 
-Ele precisa ser extraído dentro da própria pasta `processed` antes de executar os notebooks.
+Ele precisa ser extraído dentro da própria pasta `data` antes de executar os notebooks.
 
 ### Ordem recomendada de execução
 
