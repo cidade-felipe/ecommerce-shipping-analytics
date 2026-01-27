@@ -29,9 +29,10 @@ Este projeto investiga o comportamento logístico do e-commerce brasileiro por m
 ```
 📦 Ecommerce-Shipping-Analysis
 ├── data
+│   ├── archive.zip
+│   ├── brazil-states.geojson
 │   └── processed
-│       ├── archive.zip
-│       └── brazil-states.geojson
+│       └── dataset_merged.csv
 ├── notebooks
 │   ├── br_delivery_insights.ipynb
 │   ├── ml_insights.ipynb
@@ -53,7 +54,15 @@ Limpeza inicial dos dados, padronização de colunas, criação de novas variáv
 
 ### **br_delivery_insights.ipynb**
 
-Exploração visual com Plotly e Ipywidgets. Análises por estado, mapas, séries temporais, faixas de preço, frete médio e comportamento dos pedidos.
+Exploração visual com Plotly e Ipywidgets baseada em `data/processed/dataset_merged.csv`. O notebook traz:
+
+- Número de pedidos por mês (com filtros de estado e ano).
+- Receita total por estado e ano.
+- Participação de meios de pagamento por faixas de valor.
+- Relação entre preço do produto e frete médio por estado e faixa de preço.
+- Média de avaliação por estado (com filtros por ano e status entregue).
+- Mapa de pedidos e receita por estado e ano (choropleth com GeoJSON).
+- Análise 3D de preço, frete e tempo de entrega segmentada por avaliação.
 
 ### **ml_insights.ipynb**
 
@@ -87,7 +96,7 @@ pip install -r requirements.txt
 O arquivo está em:
 
 ```
-data/processed/archive.zip
+data/archive.zip
 ```
 
 Ele precisa ser extraído dentro da própria pasta `data` antes de executar os notebooks.
