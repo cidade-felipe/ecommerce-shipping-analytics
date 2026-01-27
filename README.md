@@ -36,7 +36,7 @@ Este projeto investiga o comportamento logístico do e-commerce brasileiro por m
 ├── notebooks
 │   ├── br_delivery_insights.ipynb
 │   ├── ml_insights.ipynb
-│   └── preprocesse.ipynb
+│   └── preprocessed.ipynb
 ├── venv
 ├── .gitignore
 ├── LICENSE
@@ -44,11 +44,20 @@ Este projeto investiga o comportamento logístico do e-commerce brasileiro por m
 └── requirements.txt
 ```
 
+### **Onde encontrar cada pasta**
+
+- `data`: dados brutos e processados.
+- `data/archive.zip`: zip com os arquivos do dataset original.
+- `data/brazil-states.geojson`: arquivo GeoJSON para mapas.
+- `data/processed`: saída dos dados já tratados.
+- `notebooks`: notebooks do projeto.
+- `venv`: ambiente virtual local.
+
 ---
 
 ## **Notebooks**
 
-### **preprocesse.ipynb**
+### **preprocessed.ipynb**
 
 Limpeza inicial dos dados, padronização de colunas, criação de novas variáveis e unificação dos arquivos da Olist.
 
@@ -101,9 +110,18 @@ data/archive.zip
 
 Ele precisa ser extraído dentro da própria pasta `data` antes de executar os notebooks.
 
+### Dataset original
+
+O dataset pode ser encontrado no Kaggle em:
+
+```
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+```
+
 ### Ordem recomendada de execução
 
-1. preprocesse.ipynb
+1. Extrair `data/archive.zip`
+2. preprocessed.ipynb
 2. br_delivery_insights.ipynb
 3. ml_insights.ipynb
 
