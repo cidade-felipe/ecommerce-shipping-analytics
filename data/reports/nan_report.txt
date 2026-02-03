@@ -1,0 +1,79 @@
+
+Arquivo: olist_customers_dataset.csv
+------------------------------------------------------------
+customer_id: 0 NaNs
+customer_unique_id: 0 NaNs
+customer_zip_code_prefix: 0 NaNs
+customer_city: 0 NaNs
+customer_state: 0 NaNs
+
+Arquivo: olist_geolocation_dataset.csv
+------------------------------------------------------------
+geolocation_zip_code_prefix: 0 NaNs
+geolocation_lat: 0 NaNs
+geolocation_lng: 0 NaNs
+geolocation_city: 0 NaNs
+geolocation_state: 0 NaNs
+
+Arquivo: olist_orders_dataset.csv
+------------------------------------------------------------
+order_id: 0 NaNs
+customer_id: 0 NaNs
+order_status: 0 NaNs
+order_purchase_timestamp: 0 NaNs
+order_approved_at: 160 NaNs
+order_delivered_carrier_date: 1783 NaNs
+order_delivered_customer_date: 2965 NaNs
+order_estimated_delivery_date: 0 NaNs
+
+Arquivo: olist_order_items_dataset.csv
+------------------------------------------------------------
+order_id: 0 NaNs
+order_item_id: 0 NaNs
+product_id: 0 NaNs
+seller_id: 0 NaNs
+shipping_limit_date: 0 NaNs
+price: 0 NaNs
+freight_value: 0 NaNs
+
+Arquivo: olist_order_payments_dataset.csv
+------------------------------------------------------------
+order_id: 0 NaNs
+payment_sequential: 0 NaNs
+payment_type: 0 NaNs
+payment_installments: 0 NaNs
+payment_value: 0 NaNs
+
+Arquivo: olist_order_reviews_dataset.csv
+------------------------------------------------------------
+review_id: 0 NaNs
+order_id: 0 NaNs
+review_score: 0 NaNs
+review_comment_title: 87656 NaNs
+review_comment_message: 58247 NaNs
+review_creation_date: 0 NaNs
+review_answer_timestamp: 0 NaNs
+
+Arquivo: olist_products_dataset.csv
+------------------------------------------------------------
+product_id: 0 NaNs
+product_category_name: 610 NaNs
+product_name_lenght: 610 NaNs
+product_description_lenght: 610 NaNs
+product_photos_qty: 610 NaNs
+product_weight_g: 2 NaNs
+product_length_cm: 2 NaNs
+product_height_cm: 2 NaNs
+product_width_cm: 2 NaNs
+
+Arquivo: olist_sellers_dataset.csv
+------------------------------------------------------------
+seller_id: 0 NaNs
+seller_zip_code_prefix: 0 NaNs
+seller_city: 0 NaNs
+seller_state: 0 NaNs
+
+Arquivo: product_category_name_translation.csv
+------------------------------------------------------------
+product_category_name: 0 NaNs
+product_category_name_english: 0 NaNs

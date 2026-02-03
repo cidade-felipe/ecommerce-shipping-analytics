@@ -8,8 +8,7 @@
 ![Random Forest](https://img.shields.io/badge/Model-Random%20Forest-green)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
-
-Este projeto investiga o comportamento logístico do e-commerce brasileiro por meio de visualizações interativas e modelos de machine learning. A intenção é transformar dados brutos em insights que expliquem padrões de entrega, custos, satisfação e atraso.
+Este projeto investiga o comportamento logístico do e-commerce brasileiro por meio de visualizações interativas e modelos de machine learning. Os datasets vieram do link do Kaggle: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). A intenção é transformar dados brutos em insights que expliquem padrões de entrega, custos, satisfação e atraso.
 
 ---
 
@@ -20,7 +19,8 @@ Este projeto investiga o comportamento logístico do e-commerce brasileiro por m
 3. Como rodar
 4. Tecnologias usadas
 5. Resultados de machine learning
-6. Licença
+6. Dashboard de Visualização em Power BI
+7. Licença
 
 ---
 
@@ -122,8 +122,8 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 1. Extrair `data/archive.zip`
 2. preprocessed.ipynb
-2. br_delivery_insights.ipynb
-3. ml_insights.ipynb
+3. br_delivery_insights.ipynb
+4. ml_insights.ipynb
 
 ---
 
@@ -145,15 +145,29 @@ Os modelos foram treinados para prever a satisfação do cliente, dividindo nota
 
 ### **Comparação entre modelos**
 
-| Modelo               | Acurácia | Precisão 0 | Recall 0 | F1 0 | Precisão 1 | Recall 1 | F1 1 |
-|----------------------|----------|------------|----------|------|------------|----------|------|
-| Regressão Logística  | 0.74     | 0.33       | 0.56     | 0.41 | 0.90       | 0.78     | 0.84 |
-| Random Forest        | 0.90     | 0.82       | 0.47     | 0.60 | 0.91       | 0.98     | 0.94 |
-| XGBoost              | 0.87     | 0.77       | 0.28     | 0.41 | 0.88       | 0.98     | 0.93 |
+| Modelo                | Acurácia | Precisão 0 | Recall 0 | F1 0 | Precisão 1 | Recall 1 | F1 1 |
+| --------------------- | --------- | ----------- | -------- | ---- | ----------- | -------- | ---- |
+| Regressão Logística | 0.74      | 0.33        | 0.56     | 0.41 | 0.90        | 0.78     | 0.84 |
+| Random Forest         | 0.90      | 0.82        | 0.47     | 0.60 | 0.91        | 0.98     | 0.94 |
+| XGBoost               | 0.87      | 0.77        | 0.28     | 0.41 | 0.88        | 0.98     | 0.93 |
 
 O Random Forest se destacou como o modelo mais equilibrado. Ele apresenta boa precisão para ambas as classes e excelente recall para clientes satisfeitos. Já o XGBoost mostrou desempenho forte na classe positiva, porém com maior dificuldade em identificar avaliações negativas. A Regressão Logística serve como ponto de partida simples para comparação.
 
 ---
+
+## Dashboard de Visualização em Power BI
+
+Além das análises exploratórias e dos modelos implementados em Python, este projeto possui uma camada de visualização executiva construída em Power BI.
+
+O dashboard foi desenvolvido a partir dos mesmos dados tratados aqui para permitir acompanhamento de performance de negócios, tendências de vendas e análise operacional (SLA), com páginas focadas em:
+
+- Visão geral de GMV, ticket médio, entregas e satisfação
+- Evolução e tendência de crescimento mensal e anual
+- Análise de operação e impacto de atrasos logísticos no resultado
+
+Você pode acessar o dashboard completo aqui:
+
+👉 https://github.com/cidade-felipe/ecommerce-shipping-performance-dashboard
 
 ## **Licença**
 
