@@ -29,10 +29,11 @@ Este projeto investiga o comportamento logístico do e-commerce brasileiro por m
 ```
 📦 Ecommerce-Shipping-Analysis
 ├── data
+│   ├── archive
+│   ├── processed
+│   ├── reports
 │   ├── archive.zip
-│   ├── brazil-states.geojson
-│   └── processed
-│       └── dataset_merged.csv
+│   └── brazil-states.geojson
 ├── notebooks
 │   ├── br_delivery_insights.ipynb
 │   ├── ml_insights.ipynb

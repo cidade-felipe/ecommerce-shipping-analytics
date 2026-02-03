@@ -206,5 +206,13 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 chars/
-data/archive
+data/archive/olist_customers_dataset.csv
+data/archive/olist_geolocation_dataset.csv
+data/archive/olist_order_items_dataset.csv
+data/archive/olist_order_payments_dataset.csv
+data/archive/olist_order_reviews_dataset.csv
+data/archive/olist_orders_dataset.csv
+data/archive/olist_products_dataset.csv
+data/archive/olist_sellers_dataset.csv
+data/archive/product_category_name_translation.csv
 data/processed/dataset_merged.csv
